@@ -1,9 +1,7 @@
 #include<stdio.h>
-#include<stdlib.h>
 
-int main(){
-	for(int i=1;i>0;i++){
-    	printf("%c",i);
-	}
+int main(void) {
+	printf("%c",0x07);
+	return 0;
 }
 
